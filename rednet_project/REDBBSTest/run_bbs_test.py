@@ -25,10 +25,10 @@ def send_email(newfile):
     # 输入SMTP服务器地址:
     smtp_server = 'smtp.126.com'
     # 输入Email地址和口令:
-    from_addr = 'wp131601005@126.com'
-    password = 'wp19950530'
+    from_addr = 'xxxxx@126.com'
+    password = '密码'
     # 输入收件人地址:
-    to_addr = '15706092080@163.com'
+    to_addr = 'xxxxx@163.com'
     with open(newfile,"rb") as f:
         mail_body=f.read()
     #定义邮件格式
