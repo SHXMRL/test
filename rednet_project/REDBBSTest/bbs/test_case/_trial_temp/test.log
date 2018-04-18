@@ -1,0 +1,2 @@
+2018-04-10 16:01:23+0800 [-] Log opened.
+2018-04-10 16:02:05+0800 [-] D:\Python3.6.5\lib\site-packages\selenium\webdriver\remote\webdriver.py:1007: builtins.UserWarning: name used for saved screenshot does not match file type. It should end with a `.png` extension
