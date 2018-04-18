@@ -11,9 +11,9 @@ browser.switch_to.frame('x-URS-iframe')
 #sys.exit()
 print(223)
 time.sleep(3)
-browser.find_element_by_name('email').send_keys('15706092080@163.com')
+browser.find_element_by_name('email').send_keys('xxxxx@163.com')
 
-browser.find_element_by_name('password').send_keys('CR@LZ117469X#EC')
+browser.find_element_by_name('password').send_keys('密码')
 time.sleep(3)
 browser.find_element_by_id('dologin').click()
 time.sleep(3)
@@ -24,7 +24,8 @@ browser.switch_to_default_content()
 #判断登录是否成功
 name = browser.find_element_by_id("spnUid").text
 print(name)
-if name == '15706092080@163.com':
+if name == 'xxxxx@163.com':
     print('登录成功')
 else:
     print('登录失败')
+com
