@@ -19,12 +19,12 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 def send_email(newfile):
     # 输入Email地址和口令:
-    from_addr = 'dengdongh123@126.com'
-    password = 'tdh97314650720'
+    from_addr = 'xxxxx@126.com'
+    password = '密码'
     # 输入收件人地址:
     to_addr = 'majie@3gosc.com'
     #多个接收邮箱，单个收件人的话，直接是receiver='XXX@126.com'
-    receiver=['majie@3gosc.com','benq81@vip.qq.com']
+    receiver=['邮箱账号']
     # 输入SMTP服务器地址:
     smtp_server = 'smtp.126.com'
     # 邮件对象:
